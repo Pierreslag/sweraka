@@ -17,10 +17,10 @@
                 Asphalt Straight
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Straight</a>
-                <a href="" class="dropdown-item">Rake</a>
-                <a href="" class="dropdown-item">Sloda</a>
-                <a href="" class="dropdown-item">All</a>
+                <a href="{% url 'products' %}?category=straight" class="dropdown-item">Straight</a>
+                <a href="{% url 'products' %}?category=rake" class="dropdown-item">Rake</a>
+                <a href="{% url 'products' %}?category=sloda" class="dropdown-item">Sloda</a>
+                <a href="{% url 'products' %}?category=straight,rake,sloda" class="dropdown-item">All</a>
             </div>
         </li>
 
@@ -29,10 +29,10 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Shafts</a>
-                <a href="" class="dropdown-item">Blades</a>
-                <a href="" class="dropdown-item">Extras</a>
-                <a href="" class="dropdown-item">All Accessories</a>
+                <a href="{% url 'products' %}?category=shafts" class="dropdown-item">Shafts</a>
+                <a href="{% url 'products' %}?category=blades" class="dropdown-item">Blades</a>
+                <a href="{% url 'products' %}?category=extras" class="dropdown-item">Extras</a>
+                <a href="{% url 'products' %}?category=shafts,blades,extras" class="dropdown-item">All Accessories</a>
             </div>
         </li>
 
@@ -41,9 +41,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
