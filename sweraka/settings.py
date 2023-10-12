@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-wdkb^8k0@9v^365&hi=&etl_0poc%kbk9jb7pj00+72oeypcy=
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'sweraka.herokuapp.com',
+    'sweraka-6341db077d7b.herokuapp.com',
     'localhost',
 ]
 
