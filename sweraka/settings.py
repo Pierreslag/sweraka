@@ -30,6 +30,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
 ALLOWED_HOSTS = [
     'sweraka-6341db077d7b.herokuapp.com',
     'localhost',
+    '8000-pierreslag-sweraka-p0xhags8e47.ws-eu105.gitpod.io',
 ]
 
 
